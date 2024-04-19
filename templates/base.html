@@ -5,7 +5,18 @@ img {
   width: 25%;
   height: auto;
 }
-
+.button-wrapper {
+    height: 300px;
+    padding: 50px;
+    border: 1px solid grey;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    position: relative;
+}
+#my-button {
+    position: absolute;
+    transition: all 0.07s linear 0s;
+}
 </style>
 <head>
     <meta charset="UTF-8">
@@ -19,6 +30,10 @@ img {
   <img src="https://media1.tenor.com/m/DN2bzxNeHqAAAAAd/puss-in-boots-cute.gif" class="rounded" alt="..." style="margin-top: 100px;">
 </div>
 <p class="text-center fs-4 fw-bold font-monospace">Бусинка, ты будешь любить меня всегда и никогда не бросишь?)</p>
-
+<div class="text-center">
+<button type="button" class="btn btn-success">Да, конечно ❤️❤️❤️</button>
+<button type="button" class="btn btn-danger">Ни за что!!!</button>
+<!--    <div class="button-wrapper btn-danger"><div><input type="button" value="Ни за что!!!" id="my-button"></div></div>-->
+</div>
 </body>
 </html>
